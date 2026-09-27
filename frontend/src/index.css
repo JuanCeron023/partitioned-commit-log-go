@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen text-slate-100 antialiased font-sans;
+    background: radial-gradient(1200px 600px at 85% -10%, #7c2d12 0%, #431407 40%, #1c0a02 100%);
+  }
+}

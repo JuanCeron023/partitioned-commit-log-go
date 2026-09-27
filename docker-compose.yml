@@ -1,0 +1,10 @@
+services:
+  streamhive:
+    build: .
+    ports:
+      - "8082:8082"       # dashboard: http://localhost:8082
+    volumes:
+      - streamhive-data:/data   # partition logs survive restarts
+
+volumes:
+  streamhive-data:

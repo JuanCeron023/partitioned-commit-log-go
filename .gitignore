@@ -1,0 +1,10 @@
+/streamhive
+*.exe
+*.test
+*.log
+.DS_Store
+/data/
+# Frontend
+frontend/node_modules/
+frontend/dist/
+web/static/
